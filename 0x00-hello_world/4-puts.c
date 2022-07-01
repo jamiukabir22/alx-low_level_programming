@@ -4,7 +4,7 @@
  * main - print the string in the put function
  * description:using the main function
  * this program prints: programming is like building a multilingual puzzle
- * Retruns 0
+ * Return: 0
  */
 
 
