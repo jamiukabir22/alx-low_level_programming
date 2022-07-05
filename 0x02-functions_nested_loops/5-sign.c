@@ -1,4 +1,4 @@
-#inclde"main.h"
+#include"main.h"
 /**
  * print_sign - check numers
  * @c : number to check
@@ -15,7 +15,7 @@ int print_sign(int c)
 	else if (n == 0)
 	{
 		test = 0;
-		_putchar('0);
+		_putchar('0');
 	}
 	else
 	{
