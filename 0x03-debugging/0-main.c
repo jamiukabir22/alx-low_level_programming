@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include"main.h"
 /**
- * main - prints the largest of 3 integer
+ * main - Test function fo positive or negative
  * Return: 0
  */
 
