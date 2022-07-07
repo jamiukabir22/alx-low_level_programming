@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include"main.h"
 /**
  * main - prints the largest of 3 integer
@@ -7,19 +8,8 @@
 
 int main(void)
 {
-	int a, b, c;
-
-	int largest;
-
-	a = 972;
-
-	b = -98;
-
-	c = 0;
-
-	largest = largest_number(a,b,c);
-
-	printf("%d is the largest number\n", largest);
-
-return (0);
+	int i;
+	i = 0;
+	positive_or_negative(0);
+	return (0);
 }
