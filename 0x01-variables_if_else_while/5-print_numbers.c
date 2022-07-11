@@ -7,15 +7,15 @@
  */
 int main(void)
 {
-	char k = 0;
+	char ch = 0;
 	int i = 0;
 	/* your code goes there */
 
 		while (i < 10)
 		{
-			putchar(k);
+			putchar(ch);
 
-					k++;
+					ch++;
 
 							i++;
 		}
