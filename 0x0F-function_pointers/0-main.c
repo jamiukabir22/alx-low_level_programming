@@ -16,9 +16,9 @@ void print_name_as_is(char *name)
  *
  * Retrun: Nothing.
  */
-{
-	void print_name_uppercase(char *name)
 
+	void print_name_uppercase(char *name)
+{
 		unsigned int i;
 
 	printf("Hello, my uppercase name is ");
@@ -28,6 +28,7 @@ void print_name_as_is(char *name)
 		if (name[i] >= 'a' && name[i] <= 'z')
 		{
 			putchar(name[i] + 'A' - 'a');
+		}
 			else
 			{
 				putchar(name[i]);
@@ -35,6 +36,7 @@ void print_name_as_is(char *name)
 			i++;
 		}
 	}
+	
 	/**
 	 * main - checks the code
 	 *
