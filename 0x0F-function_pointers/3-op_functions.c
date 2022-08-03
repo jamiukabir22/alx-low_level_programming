@@ -2,7 +2,7 @@
 /**
  * op_add - add 2 integers
  * @a: integer 1
- * @b: integer 2
+ * @b: interger 2 
  * Return: integer with the result of the operation.
  */
 int op_add(int a, int b)
@@ -11,8 +11,8 @@ int op_add(int a, int b)
 }
 /**
  * op_sub - substract 2 integers
- * @a: integr 1
- * @b integr 2
+ * @a: integer 1
+ * @b integer 2
  * Return: integer with the result of the operation
  */
 int op_sub(int a, int b)
@@ -22,7 +22,7 @@ int op_sub(int a, int b)
 /**
  * op_mul - multiply 2 integers
  * @a: integr 1
- * @b: integer 1
+ * @b: integer 2
  * Return: integer with the result of the operation
  */
 int op_mul(int a, int b)
