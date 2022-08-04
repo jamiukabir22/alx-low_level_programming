@@ -10,7 +10,7 @@
 void print_all(const char * const format, ...)
 {
 	va_list list;
-	unsigned int j = 0 start = 0;
+	unsigned int j = 0, start = 0;
 	char *p;
 
 	va_start(list, format);
@@ -28,8 +28,25 @@ void print_all(const char * const format, ...)
 			switch (start)
 			{ case 1: printf(", "); }
 			start = 1;
-			printf("%c", va_arg(list, int));
+			printf("%i", va_arg(list, int));
 			break;
 			case 'f':
 			switch (start)
-			{vase : printf(", "); }
+			{ case 1: printf(", "); }
+			start = 1;
+			printf("%f", va_arg(list, double));
+			case's':
+			switch (start)
+			{ case 1: printf(", "); }
+			start = 1;
+			p = va_arg(list, char*);
+			if (p)
+			{ printf("%s", p);
+				break; }
+			printf("%p", p);
+			break; }
+		j++;
+	}
+	printf("\n");
+	va_end(list);
+}
