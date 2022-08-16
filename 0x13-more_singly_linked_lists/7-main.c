@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
-#include <string>
+#include <string.h>
 /**
  * main - checks code
  *
@@ -14,7 +14,7 @@ int main(void)
 
 	head = NULL;
 	add_nodeint_end(&head, 0);
-	add_ nodeint_end(&head, 1);
+	add_nodeint_end(&head, 1);
 	add_nodeint_end(&head, 2);
 	add_nodeint_end(&head, 3);
 	add_nodeint_end(&head, 4);
