@@ -10,12 +10,12 @@ int main(void)
 	unsigned long int n;
 
 n = flip_bits(1024, 1);
-printf("%u\n", n);
+printf("%lu\n", n);
 n = flip_bits(402, 98);
-printf("%u\n", n);
+printf("%lu\n", n);
 n = flip_bits(1024,3);
-printf("%u\n", n);
+printf("%lu\n", n);
 n = flip_bits(1024, 1025);
-printf("%u\n", n);
+printf("%lu\n", n);
 return (0);
 }
