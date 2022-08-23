@@ -3,7 +3,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include <unnistd.h>
+#include <unistd.h>
 #include <stdlib.h>
 /**
  * _error - Read file
@@ -85,5 +85,5 @@ int main(int ac, char *av[])
 		exit(97);
 	}
 	cp(av[1], av[2]);
-	returm (0);
+	return (0);
 }
