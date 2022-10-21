@@ -1,10 +1,10 @@
 #include "hash_tables.h"
 /**
- * key_index - Gives the index a key in the hash table
+ * key_index - Gives the user the index of a key
  * @key: key
- * @size: array size
- * @Return: index at which index/value will be stored in array
- * of hash table
+ * @size: size of array
+ * @Return: Index at which the key or value sholud be stored
+ * in thearray of the hash table
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
